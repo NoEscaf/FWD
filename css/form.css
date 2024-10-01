@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+}
+#form{
+    background-color: #29dbff;
+    border-radius: 100px;
+    margin: 3%;
+}
+
+.label{
+    color: white;
+}

@@ -1,0 +1,81 @@
+.block-element{
+    aliceblue;
+    background-color:
+    margin: 10px e; / * salah satu syarat block element * /
+    padding: 20px;
+    border: Ipx solid Orgb(63, 147, 222);
+    width: 100%; / *syarat lanjutan dari block element
+}
+
+. inline-element{
+    background-coLor:
+    aliceblue;
+    padding: 2px 5px;
+    border: Ipx solid rgb(63, 147,
+    222);}
+
+    . clearfix:after{
+        content: "
+        display: table;
+        clear: both;
+        / * style untuk block element * /
+        . bloc k -element {
+        background-color:
+        aliceblue;
+        margin: 2px e;
+        padding: 20px; / * salah satu syarat bl
+        border: Ipx solid Orgb(63, 147, 222);
+        width: 10%; / *syarat lanjutan dari bl
+        nav. block-element{
+        float :
+        width:
+        . sidebar
+        float :
+        width:
+        left;
+        6ez;
+        right;
+        3ex;
+
+        . clearfix : after{
+            content:
+            display: table;
+            clear: both;
+            / * style untuk block element * /
+            . block-element {
+            aliceblue;
+            background-color:
+            margin: 2px e;
+            padding: 20px; / * salah satu syarat bl
+            border: Ipx solid argb(63, 147, 222);
+            width: 109%; / *syarat lanjutan dari bl
+            . flex-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 29px e;
+            sect ion. block-element{
+            flex: e e 7e%;
+
+
+            . block-element {
+                background- color :
+                margin: 2px e;
+                padding: 20px; / *
+                border: Ipx solid
+                aliceblue;
+                salah satu syarat bl
+                argb(63, 147, 222);
+                width: 109%; / *syarat lanjutan dari bl
+                flex-container {
+                display: flex;
+                justify-content: space-between;
+                margin; 20px e;
+                ion. block-element
+                flex: e e 70%; i
+                width:
+                . sidebar{
+                float :
+                width :
+                6eyo;J
+                right;
+                30%;

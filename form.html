@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <!-- css external -->
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<!-- css internal -->
+<style>
+    h1{
+            text-align: center;
+            color: #ff0000;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+</style>
+<body>
+    <h1>Form Pendaftaran</h1>
+    <form id="form" action="#">
+        <label for="fullname">Nama Lengkap:</label><br>
+        <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="Masukkan Nama Lengkap"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Masukkan Email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="Masukkan Password"><br><br>
+
+        <label for="birthdate">Tanggal Lahir:</label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <label for="age">Umur:</label><br>
+        <input type="number" id="age" name="age" min="18" required placeholder="Masukkan Umur"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="Laki-laki" required>
+        <label for="male">Laki-laki</label><br>
+        <input type="radio" id="female" name="gender" value="Perempuan" required>
+        <label for="female">Perempuan</label><br><br>
+
+        <label for="phone">Nomor Telepon:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10,13}" required placeholder="Masukkan Nomor Telepon"><br><br>
+
+        <label for="profilePic">Unggah Foto Profil (opsional):</label><br>
+        <input type="file" id="profilePic" name="profilePic"><br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Saya menyetujui syarat dan ketentuan.</label><br><br>
+        <!-- css inline -->
+        <input type="submit" value="Daftar" style="background-color: #4CAF50; color: #fff;">
+    </form>
+</body>
+</html>
