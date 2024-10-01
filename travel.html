@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pemesanan Tiket Travel</title>
+    <!-- css internal -->
+    <style>
+        body{
+            background-color: #edf0ed;
+        }
+        h1{
+            text-align: center;
+            color: #7b0909;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            color: #333; 
+        }
+    </style>
+    <!-- css external -->
+    <link rel="stylesheet" href="css/travel.css">
+</head>
+<body>
+    <h1>Form Pemesanan Tiket Travel</h1>
+    <form action="#" method="POST" id="form">
+        <label for="nama" class="label">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required minlength="3" placeholder="Masukkan nama lengkap Anda"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Masukkan email Anda"><br><br>
+
+        <label for="dob">Tanggal Lahir:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="umur">Umur:</label>
+        <input type="number" id="umur" name="umur" required min="18" placeholder="Masukkan umur Anda (min 18 tahun)"><br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="" disabled selected>Pilih jenis kelamin</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select><br><br>
+
+        <label for="tel">Nomor Telepon:</label>
+        <input type="tel" id="tel" name="tel" required pattern="\d{10,13}" placeholder="Masukkan nomor telepon (10-13 digit)"><br><br>
+
+        <label for="foto_profil">Unggah Foto Profil (opsional):</label>
+        <input type="file" id="foto_profil" name="foto_profil" accept="image/*"><br><br>
+        <label for="tujuan">Tujuan:</label>
+        <select name="tujuan" id="tujuan">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="bali">Bali</option>
+        </select><br><br>
+        <!-- css inline -->
+        <input type="submit" value="Kirim" style="background-color: #4CAF50; color: #fff;">
+    </form>
+
+</body>
+</html>
+

@@ -1,0 +1,44 @@
+/* style untuk block element  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.block-element{
+    background-color: aliceblue;
+    margin: 5px 0;
+    padding: 20px;
+    border: 1px solid rebeccapurple;
+    width: 100%; 
+}
+nav.block-element{
+    float: left;
+    width: 60%;
+}
+
+.sidebar{
+    float: right;
+    width: 30%;
+}
+.inline-element{
+    background-color: aqua;
+    padding: 2px 5px;
+    border: 1px solid rebeccapurple;
+}
+
+nav a{
+    color:blueviolet;
+    padding: 2px 5px;
+    border: 1px solid rebeccapurple;
+    background-color: aqua;
+}
+
+nav a:hover{
+    text-decoration: none;
+}

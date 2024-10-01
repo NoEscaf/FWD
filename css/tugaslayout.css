@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, .content, footer {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: lightgray;
+}
+
+nav {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.main-content {
+    width: 55%;
+    background-color: lightcoral;
+    padding: 10px;
+}

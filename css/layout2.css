@@ -1,0 +1,25 @@
+/* style untuk block element  */
+
+.block-element{
+    background-color: aliceblue;
+    margin: 5px 0;
+    padding: 20px;
+    border: 1px solid rebeccapurple;
+    width: 100%; 
+}
+.inline-element{
+    background-color: aqua;
+    padding: 2px 5px;
+    border: 1px solid rebeccapurple;
+}
+
+nav a{
+    color:blueviolet;
+    padding: 2px 5px;
+    border: 1px solid rebeccapurple;
+    background-color: aqua;
+}
+
+nav a:hover{
+    text-decoration: none;
+}

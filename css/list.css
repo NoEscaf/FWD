@@ -1,0 +1,25 @@
+h2{
+    color: blue;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+}
+
+body{
+    background-color: lightblue;
+}
+
+#biodata{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10;
+    color:brown;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+}

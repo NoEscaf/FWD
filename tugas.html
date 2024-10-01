@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <style>
+        /* css internal */
+        label{
+            padding: 20%;
+            margin: auto;
+        }
+        input{
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <!-- penulisan css inline -->
+    <h2 style="color: aqua; text-align: center;">Form Pendaftaran</h2>
+    <form action="#" method="POST">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" required minlength="3" placeholder="Masukkan nama lengkap Anda">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="Masukkan password (min 8 karakter)">
+        <br><br>
+
+        <label for="dob">Tanggal Lahir</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="umur">Umur</label>
+        <input type="number" id="umur" name="umur" required min="18" placeholder="Masukkan umur Anda (min 18 tahun)">
+        <br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin</label>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="" disabled selected>Pilih jenis kelamin</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select>
+        <br><br>
+
+        <label for="tel">Nomor Telepon</label>
+        <input type="tel" id="tel" name="tel" required pattern="\d{10,13}" placeholder="Masukkan nomor telepon (10-13 digit)">
+        <br><br>
+
+        <label for="foto_profil">Unggah Foto Profil (opsional)</label>
+        <input type="file" id="foto_profil" name="foto_profil" accept="image/*">
+        <br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Saya setuju dengan Syarat dan Ketentuan</label>
+        <br><br>
+
+        <button type="submit">Daftar</button>
+    </form>
+
+</body>
+</html>
